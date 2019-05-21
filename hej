@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<html> 
+
+<head>
+    <meta charset="utf-8">
+    <title>fedferie</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js"></script>
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css" rel="stylesheet">
+
+</head>
+
+<body data-gr-c-s-loaded="true">
+
+    <div id='map'></div>
+
+    <button id="fly1" class="flyer">Malaga</button>
+    <button id="fly2" class="flyer">Viborg</button>
+
+    <!--Flipbox  -->
+
+
+    <div id="info2" class="infobox" width="520" height="315" src="https://www.youtube.com/embed/Amo2AWS8BhQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+        <div class="elementor-column-wrap  elementor-element-populated">
+            <div class="elementor-widget-wrap">
+                <section class="elementor-element elementor-element-86abde1 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section elementor-inner-section" data-id="86abde1" data-element_type="section">
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-row">
+                            <div class="elementor-element elementor-element-d00043f elementor-column elementor-col-100 elementor-inner-column" data-id="d00043f" data-element_type="column">
+                                <div class="elementor-column-wrap  elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div class="elementor-element elementor-element-a3b2553 eael-flipbox-content-align-center elementor-widget elementor-widget-eael-flip-box" data-id="a3b2553" data-element_type="widget" data-widget_type="eael-flip-box.default">
+                                            <div class="elementor-widget-container">
+
+                                                <div class="eael-elements-flip-box-container eael-animate-flip eael-animate-left">
+
+                                                    <div class="eael-elements-flip-box-flip-card">
+                                                        <div class="eael-elements-flip-box-front-container front2">
+                                                            <div class="eael-elements-slider-display-table frontwhite">
+                                                                <div class="eael-elements-flip-box-vertical-align">
+                                                                    <div class="eael-elements-flip-box-padding">
+                                                                        <div class="eael-elements-flip-box-icon-image">
+                                                                        </div>
+                                                                        <h2 class="eael-elements-flip-box-heading fronth2">Hold musen over mig</h2>
+                                                                        <div class="eael-elements-flip-box-content">
+                                                                            <p></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="eael-elements-flip-box-rear-container back2">
+                                                            <div class="eael-elements-slider-display-table backwhite">
+                                                                <div class="eael-elements-flip-box-vertical-align">
+                                                                    <div class="eael-elements-flip-box-padding">
+                                                                        <div class="eael-elements-flip-box-icon-image">
+                                                                            <i class="" aria-hidden="true"></i>
+                                                                        </div>
+
+                                                                        <h2 class="eael-elements-flip-box-heading">Viborg</h2>
+                                                                        <div class="eael-elements-flip-box-content">
+                                                                            <p></p>
+                                                                            <p>Oplev Viborgs smukke omgivelser<br>samt udforkse det danske landskab.</p>
+                                                                            <p></p>
+                                                                        </div>
+                                                                        <a href="http://mathiasthrane.com/fedferie/viborg/"><button class="mapknap">Læs mere</button></a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div id="info1" class="infobox" width="520" height="315" src="https://www.youtube.com/embed/MtLmujqzpzk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+        <div class="elementor-column-wrap  elementor-element-populated">
+            <div class="elementor-widget-wrap">
+                <section class="elementor-element elementor-element-86abde1 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section elementor-inner-section" data-id="86abde1" data-element_type="section">
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-row">
+                            <div class="elementor-element elementor-element-d00043f elementor-column elementor-col-100 elementor-inner-column" data-id="d00043f" data-element_type="column">
+                                <div class="elementor-column-wrap  elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div class="elementor-element elementor-element-a3b2553 eael-flipbox-content-align-center elementor-widget elementor-widget-eael-flip-box" data-id="a3b2553" data-element_type="widget" data-widget_type="eael-flip-box.default">
+                                            <div class="elementor-widget-container">
+
+                                                <div class="eael-elements-flip-box-container eael-animate-flip eael-animate-left">
+
+                                                    <div class="eael-elements-flip-box-flip-card">
+                                                        <div class="eael-elements-flip-box-front-container front1">
+                                                            <div class="eael-elements-slider-display-table frontwhite">
+                                                                <div class="eael-elements-flip-box-vertical-align">
+                                                                    <div class="eael-elements-flip-box-padding">
+                                                                        <div class="eael-elements-flip-box-icon-image">
+                                                                        </div>
+                                                                        <h2 class="eael-elements-flip-box-heading fronth2">Hold musen over mig</h2>
+                                                                        <div class="eael-elements-flip-box-content">
+                                                                            <p></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="eael-elements-flip-box-rear-container back1">
+                                                            <div class="eael-elements-slider-display-table backwhite">
+                                                                <div class="eael-elements-flip-box-vertical-align">
+                                                                    <div class="eael-elements-flip-box-padding">
+                                                                        <div class="eael-elements-flip-box-icon-image">
+                                                                            <i class="" aria-hidden="true"></i>
+                                                                        </div>
+
+                                                                        <h2 class="eael-elements-flip-box-heading">Lew Hoad Fuengirola</h2>
+                                                                        <div class="eael-elements-flip-box-content">
+                                                                            <p></p>
+                                                                            <p>Kom ned og oplev det eksotiske Spanien.<br>Få en oplevelse for livet smukke strande og krystal blåt hav.</p>
+                                                                            <p></p>
+                                                                        </div>
+                                                                        <a href="http://mathiasthrane.com/fedferie/malaga/"><button class="mapknap">Læs mere</button></a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoibWF0aGFpcyIsImEiOiJjamZqY3ptbXc0N3FwMnFtbXVvYW10aWp6In0.YSF8PTlwyb-E_7SWpchYMw';
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/satellite-v9',
+        center: [10.530270, 46.379811],
+        zoom: 3.5,
+        speed: 0.1,
+    });
+    var marker = new mapboxgl.Marker()
+        .setLngLat([-4.631921, 36.570657])
+        .addTo(map);
+    var marker = new mapboxgl.Marker()
+        .setLngLat([9.397826, 56.439302])
+        .addTo(map);
+    var marker = new mapboxgl.Marker()
+        .setLngLat([9.397826, 56.439099])
+        .addTo(map);
+    var marker = new mapboxgl.Marker()
+        .setLngLat([9.398736, 56.439049])
+        .addTo(map);
+
+</script>
+
+<script>
+    document.getElementById('fly1').addEventListener('click', function() {
+        map.flyTo({
+            center: [-4.631921, 36.570657],
+            zoom: 15,
+            speed: 0.4,
+        });
+        document.getElementById("info2").style.visibility = "hidden";
+        document.getElementById("info1").style.visibility = "visible";
+
+
+
+    });
+    document.getElementById('fly2').addEventListener('click', function() {
+        map.flyTo({
+            center: [9.397826, 56.439302],
+            zoom: 15,
+            speed: 0.4,
+
+        });
+        document.getElementById("info1").style.visibility = "hidden";
+        document.getElementById("info2").style.visibility = "visible";
+
+    });
+
+</script>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+
+</html>
